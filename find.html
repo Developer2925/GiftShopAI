@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>GiftMe AI | Gifts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!--Navbar Section-->
+    <header>
+        <div class="navbar" id="top">
+            <div class="nav-text">
+                <a href="index.html">
+                    <h1>GiftME AI</h1>
+                </a>
+            </div>
+            <div class="nav">
+                <nav>
+                    <ul id="MenuItems">
+                        <a href="index.html">Home</a>
+                        <a href="index.html#about">About</a>
+                        <a href="index.html#shop">Shop</a>
+                        <a href="contact.html">Contact</a>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu-icon">
+                <i class="fa fa-bars" aria-hidden="true" onclick="menutoggle()"></i>
+            </div>
+        </div>
+        <hr>
+    </header>
+
+    <!--Input Section-->
+    <div class="mainForm">
+        <div class="form">
+
+            <div class="form-text">
+                <h1>Find Your Gifts at GiftME AI</h1>
+                <br>
+                <p>Our AI-powered tool will guide you in choosing the perfect gift when you're unsure about what to buy.
+                    <br>
+                    Simply fill out the form below with information about the recipient and your budget, and we'll
+                    suggest a
+                    curated list of gifts!
+                </p>
+            </div>
+            <div class="formBox">
+                <div class="input">
+                    <label class="label">Relationship</label>
+                    <br>
+                    <select class="options">
+                        <option value="">Select</option>
+                        <option value="">Son</option>
+                        <option value="">Daughter</option>
+                        <option value="">Mother</option>
+                        <option value="">Father</option>
+                        <option value="">Grandmother</option>
+                        <option value="">Grandfather</option>
+                        <option value="">Neice</option>
+                    </select>
+                </div>
+                <div class="input">
+                    <label class="label">Age Group</label>
+                    <br>
+                    <select class="options">
+                        <option value="">Select</option>
+                        <option value="">1 - 10</option>
+                        <option value="">11 - 20</option>
+                        <option value="">21 - 30</option>
+                        <option value="">31 - 40</option>
+                        <option value="">41 - 50</option>
+                        <option value="">51 - 60</option>
+                        <option value="">61 - 70</option>
+                        <option value="">71 - 80</option>
+                        <option value="">81 - 90</option>
+                        <option value="">91 - 100</option>
+                    </select>
+                </div>
+                <div class="input">
+                    <label class="label">Occasion</label>
+                    <br>
+                    <select class="options">
+                        <option value="">Select</option>
+                        <option value="">Birthday</option>
+                        <option value="">Wedding</option>
+                        <option value="">Valentine</option>
+                        <option value="">Anniversary</option>
+                        <option value="">Christmas</option>
+                        <option value="">New Year</option>
+                    </select>
+                </div>
+                <div class="input">
+                    <label class="label">Interests</label>
+                    <br>
+                    <select class="options">
+                        <option value="">Select</option>
+                        <option value="">Music</option>
+                        <option value="">Technology</option>
+                        <option value="">Toys</option>
+                        <option value="">Books</option>
+                        <option value="">Electronics</option>
+                    </select>
+                </div>
+                <div class="input">
+                    <label class="label">Budget</label>
+                    <br>
+                    <select class="options">
+                        <option value="">Select</option>
+                        <option value="">100 - 1000Rs</option>
+                        <option value="">1000 - 1500Rs</option>
+                        <option value="">1500 - 2000Rs</option>
+                        <option value="">2000 - 2500Rs</option>
+                        <option value="">2500Rs +</option>
+                    </select>
+                </div>
+                <div class="search-btn">
+                    <button>Find Gift</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!--Footer Section-->
+    <footer id="footer">
+        <hr>
+        <div class="details">
+            <div class="giftMEAI" style="color: white;">
+                <h3>GiftME AI</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, laboriosam. Repellendus soluta
+                    eum
+                    quae aut iste itaque ea ab distinctio culpa esse est cumque, labore sint nemo repellat mollitia
+                    pariatur!</p>
+            </div>
+            <div class="type-gifts" style="color: white;">
+                <h3>Gifts</h3>
+                <ul>
+                    <li><a href="">Birthday</a></li>
+                    <li><a href="">Wedding</a></li>
+                    <li><a href="">Anniversary</a></li>
+                    <li><a href="">Christmas</a></li>
+                </ul>
+            </div>
+            <div class="sociaMedia" style="color: white;">
+                <h3>Connect to Us</h3>
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-telegram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            <span>Copyright © 2023 GiftME AI, All rights reserved.</span>
+        </div>
+    </footer>
+
+    <!----------JS for Toggle Menu---------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+
+</html>
